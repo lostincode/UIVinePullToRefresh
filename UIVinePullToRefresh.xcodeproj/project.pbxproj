@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB06D02816C6C7F90094788D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB06D02716C6C7F90094788D /* UIKit.framework */; };
+		EB06D02A16C6C7F90094788D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB06D02916C6C7F90094788D /* Foundation.framework */; };
+		EB06D02C16C6C7F90094788D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB06D02B16C6C7F90094788D /* CoreGraphics.framework */; };
+		EB06D03216C6C7F90094788D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EB06D03016C6C7F90094788D /* InfoPlist.strings */; };
+		EB06D03416C6C7F90094788D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB06D03316C6C7F90094788D /* main.m */; };
+		EB06D03816C6C7F90094788D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB06D03716C6C7F90094788D /* AppDelegate.m */; };
+		EB06D03A16C6C7F90094788D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EB06D03916C6C7F90094788D /* Default.png */; };
+		EB06D03C16C6C7F90094788D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB06D03B16C6C7F90094788D /* Default@2x.png */; };
+		EB06D03E16C6C7F90094788D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB06D03D16C6C7F90094788D /* Default-568h@2x.png */; };
+		EB06D04116C6C7F90094788D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB06D03F16C6C7F90094788D /* MainStoryboard.storyboard */; };
+		EB06D04416C6C7F90094788D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB06D04316C6C7F90094788D /* ViewController.m */; };
+		EB06D04D16C6C8780094788D /* TriangleView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB06D04C16C6C8780094788D /* TriangleView.m */; };
+		EB06D05016C6CF5E0094788D /* TriangleRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB06D04F16C6CF5E0094788D /* TriangleRefreshView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EB06D02416C6C7F90094788D /* UIVinePullToRefresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIVinePullToRefresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB06D02716C6C7F90094788D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EB06D02916C6C7F90094788D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EB06D02B16C6C7F90094788D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EB06D02F16C6C7F90094788D /* UIVinePullToRefresh-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIVinePullToRefresh-Info.plist"; sourceTree = "<group>"; };
+		EB06D03116C6C7F90094788D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EB06D03316C6C7F90094788D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EB06D03516C6C7F90094788D /* UIVinePullToRefresh-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIVinePullToRefresh-Prefix.pch"; sourceTree = "<group>"; };
+		EB06D03616C6C7F90094788D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EB06D03716C6C7F90094788D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EB06D03916C6C7F90094788D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		EB06D03B16C6C7F90094788D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		EB06D03D16C6C7F90094788D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		EB06D04016C6C7F90094788D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		EB06D04216C6C7F90094788D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EB06D04316C6C7F90094788D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EB06D04B16C6C8780094788D /* TriangleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TriangleView.h; path = Views/TriangleView.h; sourceTree = "<group>"; };
+		EB06D04C16C6C8780094788D /* TriangleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TriangleView.m; path = Views/TriangleView.m; sourceTree = "<group>"; };
+		EB06D04E16C6CF5E0094788D /* TriangleRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TriangleRefreshView.h; path = Views/TriangleRefreshView.h; sourceTree = "<group>"; };
+		EB06D04F16C6CF5E0094788D /* TriangleRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TriangleRefreshView.m; path = Views/TriangleRefreshView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB06D02116C6C7F90094788D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB06D02816C6C7F90094788D /* UIKit.framework in Frameworks */,
+				EB06D02A16C6C7F90094788D /* Foundation.framework in Frameworks */,
+				EB06D02C16C6C7F90094788D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB06D01B16C6C7F90094788D = {
+			isa = PBXGroup;
+			children = (
+				EB06D02D16C6C7F90094788D /* UIVinePullToRefresh */,
+				EB06D02616C6C7F90094788D /* Frameworks */,
+				EB06D02516C6C7F90094788D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB06D02516C6C7F90094788D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB06D02416C6C7F90094788D /* UIVinePullToRefresh.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB06D02616C6C7F90094788D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB06D02716C6C7F90094788D /* UIKit.framework */,
+				EB06D02916C6C7F90094788D /* Foundation.framework */,
+				EB06D02B16C6C7F90094788D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB06D02D16C6C7F90094788D /* UIVinePullToRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				EB06D04A16C6C84B0094788D /* Views */,
+				EB06D03616C6C7F90094788D /* AppDelegate.h */,
+				EB06D03716C6C7F90094788D /* AppDelegate.m */,
+				EB06D03F16C6C7F90094788D /* MainStoryboard.storyboard */,
+				EB06D04216C6C7F90094788D /* ViewController.h */,
+				EB06D04316C6C7F90094788D /* ViewController.m */,
+				EB06D02E16C6C7F90094788D /* Supporting Files */,
+			);
+			path = UIVinePullToRefresh;
+			sourceTree = "<group>";
+		};
+		EB06D02E16C6C7F90094788D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB06D02F16C6C7F90094788D /* UIVinePullToRefresh-Info.plist */,
+				EB06D03016C6C7F90094788D /* InfoPlist.strings */,
+				EB06D03316C6C7F90094788D /* main.m */,
+				EB06D03516C6C7F90094788D /* UIVinePullToRefresh-Prefix.pch */,
+				EB06D03916C6C7F90094788D /* Default.png */,
+				EB06D03B16C6C7F90094788D /* Default@2x.png */,
+				EB06D03D16C6C7F90094788D /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB06D04A16C6C84B0094788D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EB06D04B16C6C8780094788D /* TriangleView.h */,
+				EB06D04C16C6C8780094788D /* TriangleView.m */,
+				EB06D04E16C6CF5E0094788D /* TriangleRefreshView.h */,
+				EB06D04F16C6CF5E0094788D /* TriangleRefreshView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB06D02316C6C7F90094788D /* UIVinePullToRefresh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB06D04716C6C7F90094788D /* Build configuration list for PBXNativeTarget "UIVinePullToRefresh" */;
+			buildPhases = (
+				EB06D02016C6C7F90094788D /* Sources */,
+				EB06D02116C6C7F90094788D /* Frameworks */,
+				EB06D02216C6C7F90094788D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIVinePullToRefresh;
+			productName = UIVinePullToRefresh;
+			productReference = EB06D02416C6C7F90094788D /* UIVinePullToRefresh.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB06D01C16C6C7F90094788D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Bill Richards";
+			};
+			buildConfigurationList = EB06D01F16C6C7F90094788D /* Build configuration list for PBXProject "UIVinePullToRefresh" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EB06D01B16C6C7F90094788D;
+			productRefGroup = EB06D02516C6C7F90094788D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB06D02316C6C7F90094788D /* UIVinePullToRefresh */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB06D02216C6C7F90094788D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB06D03216C6C7F90094788D /* InfoPlist.strings in Resources */,
+				EB06D03A16C6C7F90094788D /* Default.png in Resources */,
+				EB06D03C16C6C7F90094788D /* Default@2x.png in Resources */,
+				EB06D03E16C6C7F90094788D /* Default-568h@2x.png in Resources */,
+				EB06D04116C6C7F90094788D /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB06D02016C6C7F90094788D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB06D03416C6C7F90094788D /* main.m in Sources */,
+				EB06D03816C6C7F90094788D /* AppDelegate.m in Sources */,
+				EB06D04416C6C7F90094788D /* ViewController.m in Sources */,
+				EB06D04D16C6C8780094788D /* TriangleView.m in Sources */,
+				EB06D05016C6CF5E0094788D /* TriangleRefreshView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EB06D03016C6C7F90094788D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB06D03116C6C7F90094788D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EB06D03F16C6C7F90094788D /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB06D04016C6C7F90094788D /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB06D04516C6C7F90094788D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EB06D04616C6C7F90094788D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB06D04816C6C7F90094788D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIVinePullToRefresh/UIVinePullToRefresh-Prefix.pch";
+				INFOPLIST_FILE = "UIVinePullToRefresh/UIVinePullToRefresh-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EB06D04916C6C7F90094788D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIVinePullToRefresh/UIVinePullToRefresh-Prefix.pch";
+				INFOPLIST_FILE = "UIVinePullToRefresh/UIVinePullToRefresh-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB06D01F16C6C7F90094788D /* Build configuration list for PBXProject "UIVinePullToRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB06D04516C6C7F90094788D /* Debug */,
+				EB06D04616C6C7F90094788D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB06D04716C6C7F90094788D /* Build configuration list for PBXNativeTarget "UIVinePullToRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB06D04816C6C7F90094788D /* Debug */,
+				EB06D04916C6C7F90094788D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB06D01C16C6C7F90094788D /* Project object */;
+}
